@@ -6,7 +6,7 @@ def asc_desc_checker(report: List[int]) -> int:
 		in ascending or descending order.
 		
 		Parameters
-		----------
+		-----------
 		report: List[int]
 			List of numbers
 		Returns

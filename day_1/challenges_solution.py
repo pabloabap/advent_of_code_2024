@@ -28,6 +28,17 @@ def challenge_2_resolution(df: pd.DataFrame) -> int:
 		Count how many times a unique number of the `left column` appear in the
 		`right column`, multiply each value by its counter and sum the result 
 		to get the `total_similarity_score`.
+
+		Parameteres
+		------------
+		df: pd.DataFrame
+			The dataframe that contain the two columns.
+
+		Return
+		-------
+		int: 
+			Sum of multiplication of each unique number of the left column by 
+			the number of times it appears in the second column.
 	"""
 	unique_left_values = df[0].unique().tolist()
 	right_values_in_unique_left_values = df[1][df[1].isin(unique_left_values)]
