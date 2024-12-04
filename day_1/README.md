@@ -1,6 +1,7 @@
 [Day 1 challenge link](https://adventofcode.com/2024/day/1)
 
 # Challenge summary
+The [Input file](input.txt) is the same for both challenges.
 ## Challenge 1
 Sort the two columns of [Input file](input.txt) ascending,  get the distnace 
 for each pair of numbers (in absolute values) and sum the results to get the 

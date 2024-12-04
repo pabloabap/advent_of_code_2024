@@ -1,6 +1,7 @@
 [Day 2 challenge link](https://adventofcode.com/2024/day/2)
 
 # Challenge summary
+The [Input file](input.txt) is the same for both challenges.
 ## Challenge 1
 [Input file](input.txt) consists of many reports, one **report per line**. Each 
 **report is a list of numbers called levels that are separated by spaces**.
@@ -20,7 +21,7 @@ Examples:
 
 **SOLUTION**: `559`
 
-## Challlenge 2
+## Challenge 2
 Same rules apply as before, except if removing a single level from an unsafe 
 report would make it safe, the report instead counts as safe.
 

@@ -1,6 +1,7 @@
-[Day 2 challenge link](https://adventofcode.com/2024/day/2)
+[Day 3 challenge link](https://adventofcode.com/2024/day/3)
 
 # Challenge summary
+The [Input file](input.txt) is the same for both challenges.
 ## Challenge 1
 [Input file](input.txt) is a corrupted file. Multiply the numbers only if 
 instruction is like `mul(X,Y)`, where `X` and `Y` are each **1-3 digit numbers**.
@@ -14,7 +15,7 @@ do **nothing**.
 
 **SOLUTION**: `167090022`
 
-## Challlenge 2
+## Challenge 2
 There are two new instructions you'll need to handle:
 - The `do()` instruction enables future mul instructions.
 - The `don't()` instruction disables future mul instructions.
